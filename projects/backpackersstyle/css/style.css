@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-    width: 1500px;
     margin: 0 auto;
 }
 
@@ -141,7 +140,6 @@ main {
 
 .home {
     margin: 0 0 0 165px;
-    width: 1170px;
 }
 
 
@@ -353,7 +351,6 @@ main {
 
 .content {
     margin-top: 30px;
-    width: 1170px;
     clear: both;
     float: left;
     background-color: #eaeaea;
@@ -361,7 +358,7 @@ main {
 
 .brand {
     background-color: #ffffff;
-    width: 1170px;
+
     text-align: center;
 }
 
@@ -371,7 +368,7 @@ main {
 }
 
 .product_pic {
-    width: 1170px;
+
 }
 
 .big_social i {
@@ -636,7 +633,6 @@ footer .footer_menu {
 .copy_rights {
     clear: both;
     background-color: #333333;
-    width: 1500px;
     height: 47px;
 }
 
