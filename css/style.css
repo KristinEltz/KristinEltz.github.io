@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Spectral SC', serif;
+}
+header {
+    background: rgba(255,255,255,0.9);
+    height: 90px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+}
+.logo {
+    font-size: 45px;
+    margin: 0 0 0 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.projects-grid {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.projects-item {
+    text-decoration: none;
+    color: #0f394f;
+    text-align: left;
+    margin: 14px;
+    list-style: none;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    padding: 0 0 30px 0;
+}
+.projects-item:nth-child(-n+3) {
+    border-bottom: 1px solid #dbdbdb;
+    -webkit-border-bottom: 1px solid #dbdbdb;
+    -moz-border-bottom: 1px solid #dbdbdb;
+    -o-border-bottom: 1px solid #dbdbdb;
+}
+.projects-item:hover {
+    color: #1f77a5;
+    text-decoration: none;
+}
+.projects-item:hover .projects-item-head {
+     color: #17588e;
+ }
+.projects-item:hover .projects-item-pic img {
+    opacity: 0.7;
+    transition: all 1s;
+}
+.projects-item-head {
+    color: black;
+    font-size: 23px;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.projects-item-pic img {
+    margin: 4px 0 4px 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.projects-item-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 42px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+footer {
+    padding: 50px;
+    background: #1b1b1b;
+    color: white;
+}
+.footer-left-block {
+    float: left;
+    margin-right: 15em;
+}
+.footer-right-block {
+    float: left;
+}
+@media screen and (max-width: 800px) {
+    .projects-item {
+        width: 40%;
+    }
+    .projects-item:nth-child(-n+4) {
+        border-bottom: 1px solid #dbdbdb;
+        -webkit-border-bottom: 1px solid #dbdbdb;
+        -moz-border-bottom: 1px solid #dbdbdb;
+        -o-border-bottom: 1px solid #dbdbdb;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-item {
+        width: 95%;
+        border-bottom: 1px solid #dbdbdb;
+        -webkit-border-bottom: 1px solid #dbdbdb;
+        -moz-border-bottom: 1px solid #dbdbdb;
+        -o-border-bottom: 1px solid #dbdbdb;
+    }
+    .projects-item:last-child {
+        border: none;
+    }
+}
