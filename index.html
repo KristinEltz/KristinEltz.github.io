@@ -9,29 +9,68 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header>
+<header class="header">
     <div class="logo">Kate Shulga</div>
+    <div class="header-contacts">
+        <div class="header-phone">+7-996-381-82-94</div>
+        <div class="header-mail">kate.shulga@yahoo.com</div>
+    </div>
 </header>
 
 <main>
     <section class="projects">
-        <div class="projects-grid">
-            <a href="https://kristineltz.github.io/projects/parrot-wings/index.html" class="projects-item" title="Parrot wings">
-                <span class="projects-item-pic"><img src="img/parrot-wings.png" alt="parrot-wings"></span>
-                <span class="projects-item-head">Parrot wings</span>
-                <span class="projects-item-description">Translate from PSD to HTML</span>
-            </a>
-            <a href="https://kristineltz.github.io/projects/backpackersstyle/index.html" class="projects-item" title="Parrot wings">
-                <span class="projects-item-pic"><img src="img/backpackersstyle.png" alt="Backpackers style"></span>
-                <span class="projects-item-head">Backpackers style</span>
-                <span class="projects-item-description">Translate from PSD to HTML</span>
-            </a>
-            <a href="https://kristineltz.github.io/projects/news-grid-adp/index.html" class="projects-item" title="Parrot wings">
-                <span class="projects-item-pic"><img src="img/news-grid.png" alt="News grid"></span>
-                <span class="projects-item-head">Responsive News Grid</span>
-                <span class="projects-item-description">News Grid</span>
-            </a>
+        <div class="container">
+            <h1>Frontend developer projects</h1>
+            <div class="row">
+                <div class="item">
+                    <div class="well">
+                        <a href="https://kristineltz.github.io/projects/parrot-wings/index.html" class="projects-item" title="Parrot wings">
+                            <span class="projects-item-pic"><img src="img/parrot-wings.png" alt="parrot-wings"></span>
+                            <span class="projects-item-head">Parrot wings</span>
+                            <span class="projects-item-description">Translate from PSD to HTML</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="well">
+                        <a href="https://kristineltz.github.io/projects/backpackersstyle/index.html" class="projects-item" title="Parrot wings">
+                            <span class="projects-item-pic"><img src="img/backpackersstyle.png" alt="Backpackers style"></span>
+                            <span class="projects-item-head">Backpackers style</span>
+                            <span class="projects-item-description">Translate from PSD to HTML</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="well">
+                        <a href="https://kristineltz.github.io/projects/news-grid-adp/index.html" class="projects-item" title="Parrot wings">
+                            <span class="projects-item-pic"><img src="img/news-grid.png" alt="News grid"></span>
+                            <span class="projects-item-head">Responsive News Grid</span>
+                            <span class="projects-item-description">News Grid</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="well">
+                        <a href="https://kristineltz.github.io/projects/news-grid-adp/index.html" class="projects-item" title="Parrot wings">
+                            <span class="projects-item-pic"><img src="img/news-grid.png" alt="News grid"></span>
+                            <span class="projects-item-head">Responsive News Grid</span>
+                            <span class="projects-item-description">News Grid</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="well">
+                        <a href="https://kristineltz.github.io/projects/backpackersstyle/index.html" class="projects-item" title="Parrot wings">
+                            <span class="projects-item-pic"><img src="img/backpackersstyle.png" alt="Backpackers style"></span>
+                            <span class="projects-item-head">Backpackers style</span>
+                            <span class="projects-item-description">Translate from PSD to HTML</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
+
     </section>
 </main>
 <footer class="clearfix">
@@ -44,5 +83,32 @@
     <div class="footer-mail">kate.shulga@yahoo.com</div>
 </div>
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<style>
+    @keyframes appear {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .fixed {
+        position: fixed;
+        animation: appear linear 0.3s;
+    }
+</style>
+<script>
+    jQuery("document").ready(function($){
+        var nav = $('.header');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                nav.addClass("fixed");
+            } else {
+                nav.removeClass("fixed");
+            }
+        });
+    });
+</script>
 </body>
 </html>
