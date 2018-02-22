@@ -96,6 +96,8 @@ body {
         -webkit-border-bottom: 1px solid #dbdbdb;
         -moz-border-bottom: 1px solid #dbdbdb;
         -o-border-bottom: 1px solid #dbdbdb;
+        display: block;
+        margin: 0 auto;
     }
     .news-item:last-child {
         border: none;
