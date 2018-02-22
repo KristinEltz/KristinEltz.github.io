@@ -46,6 +46,14 @@ header {
     margin: 0 0 0 50px;
     font-family: 'Dancing Script', cursive;
 }
+.header-mailto {
+    color: black;
+}
+.header-mailto:hover {
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+}
 .header-contacts {
     float: right;
     margin-right: 50px;
@@ -122,6 +130,14 @@ footer {
 .footer-right-block {
     float: left;
 }
+.footer-mailto {
+    color: white;
+}
+.footer-mailto:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
 @media screen and (max-width: 800px) {
     .projects-item {
         width: 40%;
@@ -143,17 +159,16 @@ footer {
     .logo {
         float: none;
         margin-left: 0;
-        font-size: 22px;
+        margin-top: -18px;
     }
     .header-contacts {
         float: none;
-        font-size: 13px;
+        font-size: 16px;
+        margin-top: -10px;
     }
     footer {
         font-size: 15px;
     }
-}
-@media screen and (max-width: 800px) {
     .projects-item {
         display: block;
         margin: 0 auto;
