@@ -139,15 +139,20 @@ main {
 }
 
 .home {
-    margin: 0 0 0 165px;
+    margin: 0 auto;
+    width: 90%;
 }
 
-
+.right_block {
+    float: left;
+    width: 75%;
+    margin-left: 30px;
+}
 /*--left menu--*/
 
 .left_bar {
     float: left;
-    width: 270px;
+    width: 22.2%;
     margin-top: -20px;
 }
 
@@ -255,9 +260,6 @@ main {
 
 .new_products {
     background-color: #f8f8f8;
-    width: 870px;
-    float: left;
-    margin: -20px 0 0 30px;
 }
 
 .product {
@@ -329,10 +331,6 @@ main {
 
 .top_products {
     background-color: #f8f8f8;
-    width: 870px;
-    clear: both;
-    float: left;
-    margin: -1px 0 0 310px;
 }
 
 
@@ -340,10 +338,6 @@ main {
 
 .sale_products {
     background-color: #f8f8f8;
-    width: 870px;
-    clear: both;
-    float: left;
-    margin: 50px 0 0 310px;
 }
 
 
@@ -450,14 +444,24 @@ main {
 
 
 /*--footer--*/
-
+.footer_menu_block {
+    display: inline-block;
+    width: 13%;
+    vertical-align: top;
+}
+.footer_menu-block_item {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
 footer {
     clear: both;
 }
 
 footer .footer_menu {
     background-color: #373737;
-    height: 301px;
+    padding: 30px 0;
+    text-align: center;
 }
 
 .footer_menu ul li a:hover {
@@ -473,11 +477,6 @@ footer .footer_menu {
     text-align: left;
 }
 
-.footer_menu .category {
-    float: left;
-    margin: 75px 0 0 192px;
-    width: 113px;
-}
 
 .footer_menu .category h1,
 .footer_menu .account h1,
@@ -505,31 +504,14 @@ footer .footer_menu {
     text-decoration: none;
 }
 
-.footer_menu .account {
-    float: left;
-    margin: 75px 0 0 84px;
-    width: 113px;
-}
-
-.footer_menu .support {
-    float: left;
-    margin: 75px 0 0 87px;
-    width: 113px;
-}
-
-.newsletter {
-    float: left;
-    margin: 75px 0 0 68px;
-}
 
 .newsletter {
     font-family: Roboto;
     color: #f8f8f8;
     font-size: 12px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 12px;
-    /* Приближение из-за подстановки шрифтов */
+    width: 31%;
 }
 
 .newsletter p {
@@ -573,17 +555,13 @@ footer .footer_menu {
 }
 
 .about_us {
-    float: left;
-    margin: 75px 0 0 45px;
-    width: 232px;
     font-family: Roboto;
     color: #ffffff;
     font-size: 12px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 12px;
-    /* Приближение из-за подстановки шрифтов */
     text-align: left;
+    width: 22%;
 }
 
 .about_us > h1 {
@@ -627,7 +605,7 @@ footer .footer_menu {
 }
 
 .credit_cards img {
-    margin-right: 10px;
+    margin-right: 2px;
 }
 
 .copy_rights {
@@ -637,15 +615,11 @@ footer .footer_menu {
 }
 
 .copy_rights p {
-    float: left;
-    margin: 20px 0 0 171px;
-    font-family: Roboto;
     color: #dad9d9;
     font-size: 12px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-    line-height: 21.6px;
-    /* Приближение из-за подстановки шрифтов */
+    line-height: 47px;
+    text-align: center;
 }
 
 .copy_rights .social_footer {
@@ -720,9 +694,9 @@ footer .footer_menu {
 }
 
 .main_product_page {
-    margin: 0 0 0 165px;
     padding-top: 20px;
-    width: 1170px;
+    margin: 0 auto;
+    width: 87%;
 }
 
 .product_descr {
@@ -891,7 +865,9 @@ footer .footer_menu {
 .recently_viewed {
     margin-bottom: 400px;
 }
-
+.big_social_item {
+    width: 33.3%;
+}
 
 /*---contacts---*/
 
