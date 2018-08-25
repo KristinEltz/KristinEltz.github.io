@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+<section class="block1">
+    <h1>Основная информация</h1>
+    <p>Sed ut perspiciatis, <a href="#">unde omnis iste</a> natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+
+    <form action="#" method="post">
+        <div class="group input-wrap">
+            <label for="group">Название группы</label>
+            <input type="text" placeholder="Введите название" name="group" id="group">
+        </div>
+        <div class="name input-wrap">
+            <label for="name">ФИО ответственного</label>
+            <input type="text" placeholder="Введите имя" name="name" id="name">
+        </div>
+        <div class="email input-wrap">
+            <label for="email">Email для входа</label>
+            <input type="text" placeholder="Введите email" name="email" id="email">
+        </div>
+        <div class="message input-wrap">
+            <label for="message">Описание рабочей группы</label>
+            <textarea rows="4" cols="55" placeholder="Введите краткое и емкое описание рабочей группы" name="message" id="message"></textarea>
+        </div>
+        <button class="btn-submit" type="submit">Сохранить</button>
+        <button class="btn-cancel" type="reset">Отмена</button>
+    </form>
+</section>
+
+<section class="block2">
+    <h1>Управление уведомлениями</h1>
+    <div class="alert">
+        <div class="alert-left"><i class="material-icons icon-alert">warning</i></div>
+        <div class="border"></div>
+        <div class="alert-right">
+            <h2>Внимание!</h2>
+            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. nemo enim ipsam voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="notification">
+
+        <div class="noty-wrap m-right telegram">
+            <div class="top">
+                <div class="ico i-tel"></div>
+                <div class="social active">
+                    <div class="messenger">Telegram</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <button type="button" class="disable-tel btn-disable">Отключить аккаунт</button>
+                <label>
+                    <input class="checkbox" type="checkbox" name="check">
+                    <span class="checkbox-custom">
+                        <i id="noselect" class="material-icons">check_box_outline_blank</i>
+                        <i id="select" class="material-icons">check_box</i>
+                    </span>
+                    <span class="label">Только служебные</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="noty-wrap m-right icq">
+            <div class="top">
+                    <div class="ico i-icq i-icq-dis"></div>
+                <div class="social">
+                    <div class="messenger">ICQ</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="instruction">
+                    <div class="list">
+                       <div class="list-item">
+                           <div class="list-item-left">1. Скопируйте команду авторизации</div>
+                           <div class="list-item-right"><i class="material-icons">filter_none</i></div>
+                       </div>
+
+                        <div class="list-item">
+                            <div class="list-item-left">2. Перейдите а чат и отправьте команду боту</div>
+                            <div class="list-item-right"><i class="material-icons">filter_none</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="noty-wrap m-right skype">
+            <div class="top">
+                <div class="ico i-skype i-skype-dis"></div>
+                <div class="social">
+                    <div class="messenger">Skype</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="instruction">
+                    <div class="list">
+                        <div class="list-item">
+                            <div class="list-item-left">1. Скопируйте команду авторизации</div>
+                            <div class="list-item-right"><i class="material-icons">filter_none</i></div>
+                        </div>
+
+                        <div class="list-item">
+                            <div class="list-item-left">2. Перейдите а чат и отправьте команду боту</div>
+                            <div class="list-item-right"><i class="material-icons">filter_none</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="noty-wrap slack">
+            <div class="top">
+                <div class="ico i-slack"></div>
+                <div class="social active">
+                    <div class="messenger">Slack</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <button type="button" class="disable-slack btn-disable">Отключить аккаунт</button>
+                <label>
+                    <input class="checkbox" type="checkbox" name="check">
+                    <span class="checkbox-custom">
+                        <i id="noselect2" class="material-icons">check_box_outline_blank</i>
+                        <i id="select2" class="material-icons">check_box</i>
+                    </span>
+                    <span class="label">Только служебные</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
