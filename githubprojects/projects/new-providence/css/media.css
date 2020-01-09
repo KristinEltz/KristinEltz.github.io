@@ -1,0 +1,184 @@
+@media screen and (max-width: 1203px) {
+    .top-menu-item a {
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .block5-picrow {
+        margin-left: -230px;
+        width: 150%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .block3-iphone {
+        margin-left: 0;
+    }
+    .block3 .btn-transparent {
+        margin-left: 10px;
+    }
+    .block4-iphone img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .btn-transparent {
+        padding: 10px 15px;
+    }
+    .block4-partners img {
+        margin-right: 0;
+    }
+    .btn-blue {
+        padding: 10px 15px;
+    }
+    section .heading {
+        font-size: 38px;
+    }
+    .block1-wrap {
+        width: 80%;
+    }
+    .-desc {
+        display: none;
+    }
+    .-mob {
+        display: block;
+    }
+    .mob-logo {
+        display: block;
+        margin: 0 auto;
+        width: 135px;
+    }
+    .cross {
+        float: left;
+        top: -2px;
+    }
+    .top-menu-toggle-mob {
+        text-align: center;
+    }
+    .toggle-mob-item a {
+        display: inline-block;
+        padding: 0 15px;
+        color: #26272d;
+        line-height: 2.3;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .toggle-mob-item {
+        border-bottom: solid 1px #dddde1;
+    }
+    .toggle-mob-item:first-child {
+        border-top: solid 1px #dddde1;
+    }
+    .top-menu {
+        padding: 20px 0 0 0;
+    }
+    .top-menu-icon {
+        padding-bottom: 20px;
+    }
+    .top-menu-toggle {
+        padding: 0 0;
+    }
+    .toggle-mob-item .btn-blue {
+        color: white;
+        margin: 10px 0;
+    }
+    .block-padding {
+        padding: 30px 0;
+    }
+    .input-transparent {
+        margin: 40px 15px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .block5-picrow {
+        margin-left: -340px;
+        width: 200%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .footer-text-gray {
+        width: 100%;
+    }
+    footer .col-md-2 {
+        margin: 10px 0;
+    }
+    .block1 {
+        padding-top: 190px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .block5-picrow {
+        margin-left: -455px;
+        width: 280%;
+    }
+}
+@media screen and (max-width: 670px) {
+    .carousel-indicators li {
+        margin: 0 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .carousel-indicators .active {
+        width: 110px;
+        height: 110px;
+    }
+    .feed-name {
+        margin-top: 0;
+    }
+    .carousel-inner {
+        width: 80%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .block5-picrow {
+        display: none;
+    }
+    .block5-picrow-mob {
+        display: block;
+    }
+    .block5-picrow-mob img {
+        width: 100%;
+    }
+    .block5 .container {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .block1-wrap {
+        width: 95%;
+    }
+    .block1-header {
+        font-size:39px;
+        line-height: 48px;
+    }
+    .btn-green {
+        padding: 10px 15px;
+    }
+    .block6 .carousel-inner .heading {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .input-transparent input {
+        width: 30%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .carousel-indicators li {
+        margin: 0 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .carousel-indicators .active {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 408px) {
+    .block1-iphone img {
+        width: 100%;
+    }
+}

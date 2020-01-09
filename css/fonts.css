@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proba Pro Extra Light';
+    src: url('../fonts/ProbaPro-ExtraLight.eot');
+    src: url('../fonts/ProbaPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProbaPro-ExtraLight.woff') format('woff'),
+    url('../fonts/ProbaPro-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proba Pro Extra Light Italic';
+    src: url('../fonts/ProbaPro-ExtraLightItalic.eot');
+    src: url('../fonts/ProbaPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProbaPro-ExtraLightItalic.woff') format('woff'),
+    url('../fonts/ProbaPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proba Pro Light';
+    src: url('../fonts/ProbaPro-Light.eot');
+    src: url('../fonts/ProbaPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProbaPro-Light.woff') format('woff'),
+    url('../fonts/ProbaPro-Light.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('../fonts/bebas/BebasNeueBold.otf');
+    url('../fonts/bebas/BebasNeueBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/bebas/BebasNeueBook.otf');
+url('../fonts/bebas/BebasNeueBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

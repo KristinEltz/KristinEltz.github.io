@@ -1,0 +1,41 @@
+[07/30/2019 10:46 AM] - SUCCESS: Authentication request using email address: shulka@yandex.ru, Found a user record with username: Kate
+[07/30/2019 10:46 AM] - SUCCESS: Authentication request - Username: Kate
+[07/30/2019 10:46 AM] - SUCCESS: Authentication successful for username: Kate. Executing swpm_login action hook.
+[07/30/2019 10:46 AM] - SUCCESS: Trying wp_signon() with username: Kate
+[07/30/2019 10:46 AM] - SUCCESS: wp_authenticate action. User with username: Kate is already logged in.
+[07/30/2019 10:46 AM] - SUCCESS: Setting current WP user to: Kate
+[07/30/2019 10:46 AM] - SUCCESS: Triggering swpm_after_login hook.
+[07/30/2019 11:03 AM] - SUCCESS: Authentication request using email address: shulka@yandex.ru, Found a user record with username: Kate
+[07/30/2019 11:03 AM] - SUCCESS: Authentication request - Username: Kate
+[07/30/2019 11:03 AM] - SUCCESS: Authentication successful for username: Kate. Executing swpm_login action hook.
+[07/30/2019 11:03 AM] - SUCCESS: Trying wp_signon() with username: Kate
+[07/30/2019 11:03 AM] - SUCCESS: wp_authenticate action. User with username: Kate is already logged in.
+[07/30/2019 11:03 AM] - SUCCESS: Setting current WP user to: Kate
+[07/30/2019 11:03 AM] - SUCCESS: Triggering swpm_after_login hook.
+[07/30/2019 11:09 AM] - SUCCESS: Authentication request using email address: shulka@yandex.ru, Found a user record with username: Kate
+[07/30/2019 11:09 AM] - SUCCESS: Authentication request - Username: Kate
+[07/30/2019 11:09 AM] - SUCCESS: Authentication successful for username: Kate. Executing swpm_login action hook.
+[07/30/2019 11:09 AM] - SUCCESS: Trying wp_signon() with username: Kate
+[07/30/2019 11:09 AM] - SUCCESS: wp_authenticate action. User with username: Kate is already logged in.
+[07/30/2019 11:09 AM] - SUCCESS: Setting current WP user to: Kate
+[07/30/2019 11:09 AM] - SUCCESS: Triggering swpm_after_login hook.
+[07/30/2019 1:52 PM] - SUCCESS: Authentication request using email address: shulka@yandex.ru, Found a user record with username: Kate
+[07/30/2019 1:52 PM] - SUCCESS: Authentication request - Username: Kate
+[07/30/2019 1:52 PM] - SUCCESS: Authentication successful for username: Kate. Executing swpm_login action hook.
+[07/30/2019 1:52 PM] - SUCCESS: Trying wp_signon() with username: Kate
+[07/30/2019 1:52 PM] - SUCCESS: wp_authenticate action. User with username: Kate is already logged in.
+[07/30/2019 1:52 PM] - SUCCESS: Setting current WP user to: Kate
+[07/30/2019 1:52 PM] - SUCCESS: Triggering swpm_after_login hook.
+[07/30/2019 2:18 PM] - SUCCESS: Authentication request using email address: shulka@yandex.ru, Found a user record with username: Kate
+[07/30/2019 2:18 PM] - SUCCESS: Authentication request - Username: Kate
+[07/30/2019 2:18 PM] - SUCCESS: Authentication successful for username: Kate. Executing swpm_login action hook.
+[07/30/2019 2:18 PM] - SUCCESS: Trying wp_signon() with username: Kate
+[07/30/2019 2:18 PM] - SUCCESS: wp_authenticate action. User with username: Kate is already logged in.
+[07/30/2019 2:18 PM] - SUCCESS: Setting current WP user to: Kate
+[07/30/2019 2:18 PM] - SUCCESS: Triggering swpm_after_login hook.
+[07/30/2019 3:27 PM] - SUCCESS: Authentication request - Username: kateolsen
+[07/30/2019 3:27 PM] - SUCCESS: Authentication successful for username: kateolsen. Executing swpm_login action hook.
+[07/30/2019 3:27 PM] - SUCCESS: Trying wp_signon() with username: kateolsen
+[07/30/2019 3:27 PM] - SUCCESS: wp_authenticate action. User with username: kateolsen is already logged in.
+[07/30/2019 3:27 PM] - SUCCESS: Setting current WP user to: kateolsen
+[07/30/2019 3:27 PM] - SUCCESS: Triggering swpm_after_login hook.
